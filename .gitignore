@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Local artefacts that MUST NEVER be committed
+my_entropy.csv
+my_entropy.txt
+flips.txt
+rolls.txt
+*.entropy.csv
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# Log files
+*.log
